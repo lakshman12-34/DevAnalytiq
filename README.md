@@ -66,5 +66,4 @@ DevAnalytiq/
 Want to get in touch?
 The website includes a contact form and links to my **LinkedIn**, **GitHub**, and **email** for easy communication.
 
----
 
