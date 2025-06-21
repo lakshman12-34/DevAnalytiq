@@ -1,6 +1,6 @@
 # 💼 DevAnalytiq – Freelancer Portfolio Website
 
-Welcome to DevAnalytiq!Welcome to my personal portfolio website. I'm Lakshmana Sai Karumuri, a hands-on Python Developer focused on building scalable and intelligent solutions through Machine Learning, Data Science.
+Welcome to DevAnalytiq!Welcome to my personal portfolio website. I'm Lakshmana Sai Karumuri, a hands-on Python Developer focused on building scalable and intelligent solutions through Machine Learning, Data Science,and front-end development.
 ---
 
 ## 🚀 About the Project
