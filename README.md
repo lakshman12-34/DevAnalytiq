@@ -1,80 +1,73 @@
-# 🎓 Student Performance Predictor
+# 💼 DevAnalytiq – Freelancer Portfolio Website
 
-A machine learning project designed to help predict student academic performance based on various personal and academic factors. By analyzing data such as study time, absences, and family support, this project provides an intelligent prediction model to assess a student's final grade.
-
----
-
-## 📌 Project Overview
-
-This project walks through the complete process of:
-
-* Exploring and understanding student data
-* Preprocessing and selecting relevant features
-* Building and training machine learning models
-* Evaluating model performance
-* Making final predictions using the best model
-
-The goal is to help educators, institutions, and students themselves identify patterns that may impact academic success.
+**Welcome to DevAnalytiq!**
+This is a personal portfolio website built for **Lakshmana Sai Karumuri**, a Python Developer passionate about building smart and scalable solutions using Machine Learning, Data Science, and Web Development.
 
 ---
 
-## 🚀 Technologies Used
+## 🚀 About the Project
 
-* **Python**
-* **Jupyter Notebook**
-* **Pandas, NumPy** – for data manipulation
-* **Matplotlib, Seaborn** – for data visualization
-* **Scikit-learn** – for building machine learning models
+**DevAnalytiq** is a modern, responsive portfolio website built using **HTML, Bootstrap, and JavaScript**. It's designed to showcase my skills, projects, and offer an easy way for clients to contact me or download my resume.
 
 ---
 
-## 📊 Features Considered
+## 🎯 Self-Marketing Message
 
-We used a mix of academic, behavioral, and family-related features including:
+As a freelance Python Developer and AI enthusiast, I bring value to every project by combining strong technical expertise with real-world problem-solving. Whether you're a startup, business, or individual looking to harness data or build digital products, I can help you:
 
-* `studytime`, `failures`, `absences`, `schoolsup`, `famsup`
-* `goout`, `health`, `internet`, `romantic`, etc.
-* The target variable is `G3` (final grade), used for prediction.
+* Build smart, scalable web applications
+* Design and deploy machine learning solutions
+* Automate repetitive tasks with intelligent scripts
+* Extract insights from data with EDA and visualizations
 
----
+Let’s collaborate and turn your ideas into working solutions. I focus on delivering quality work, on time, every time.
 
-## 🧠 Model Building & Results
-
-After trying out different machine learning models, the **Random Forest Regressor** gave the best results.
-
-### ✅ Final Model: Random Forest Regressor
-
-* **R² Score**: 0.823
-* **Mean Squared Error**: 3.62
-* **Mean Absolute Error**: 1.13
-* **Approximate Accuracy**: **89.46%**
-
-This means the model can predict the student's final performance with high reliability based on historical data.
+📨 **Open to freelance work and internships** — Let’s connect!
 
 ---
 
-## 📂 How to Use
+## 🔍 Features
 
-1. Clone this repository:
+* **Hero Banner** with a professional tagline
+* **About Me** section with a short intro
+* **Projects Section** showcasing real-world AI, ML, and web projects
+* **Skills Section** with categorized tech skills
+* **Resume Download** button
+* **Contact Form** with Name, Email, and Message fields
+* **Sticky Navbar** and **smooth scrolling**
+* **Dark/Light Theme Toggle**
+* Fully **responsive** for all devices
 
-```bash
-git clone https://github.com/yourusername/student-performance-predictor.git
-cd student-performance-predictor
+---
+
+## 🧠 Technologies Used
+
+* **Languages**: HTML, CSS, JavaScript
+* **Framework**: Bootstrap
+* **Fonts**: Google Fonts (e.g., Inter, Poppins)
+* **Extras**: Icons, AOS (optional), GitHub integration
+
+---
+
+## 📂 Folder Structure
+
+```
+DevAnalytiq/
+├── index.html        # Main HTML file
+├── style.css         # Custom styles (if needed)
+├── script.js         # JavaScript for interactions
+└── assets/           # Images, icons, etc.
 ```
 
-2. Install the required libraries:
+---
 
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-```
 
-3. Launch the notebook:
+---
 
-```bash
-jupyter notebook
-```
+## 📬 Contact
 
-Then open `Student Performance Predictor.ipynb` and run the cells step-by-step.
+Want to get in touch?
+The website includes a contact form and links to my **LinkedIn**, **GitHub**, and **email** for easy communication.
 
 ---
 
