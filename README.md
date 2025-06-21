@@ -59,10 +59,7 @@ DevAnalytiq/
 └── assets/           # Images, icons, etc.
 ```
 
----
 
-
----
 
 ## 📬 Contact
 
