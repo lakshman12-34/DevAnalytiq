@@ -120,12 +120,26 @@ It's not just a portfolio; it's a place where you can see what I do and reach ou
                     </div>
                     <div class="stats-grid">
                         <div class="stat-card">
-                            <div class="stat-number">9+</div>
-                            <div class="stat-label">Projects Completed</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-number">6+</div>
-                            <div class="stat-label">Months Experience</div>
+  <div id="project-counter" class="stat-number">0</div>
+  <div class="stat-label">Projects Completed</div>
+</div>
+
+<script>
+  let count = 1;
+  const counterElement = document.getElementById('project-counter');
+
+  const interval = setInterval(() => {
+    if (count < 9) {
+      counterElement.textContent = count;
+      count++;
+    } else {
+      counterElement.textContent = '9+';
+      clearInterval(interval);
+    }
+  }, 500); // Slower speed: 500ms per count
+</script>
+
+                        
                         </div>
                     </div>
                 </div>
